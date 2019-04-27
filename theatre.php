@@ -52,8 +52,8 @@ else{
 </div>
 <div class="container">
     <video controls="controls" style="width: 100%; max-width: 100%;">
-        <source type="video/mp4" src="videos/<?php echo $fullVideoName ?>" />
-        <track src="videos/<?php echo $onlyName ?>.srt" kind="captions" srclang="en" label="English">
+        <source type="video/mp4" src="videos/Movie/<?php echo $fullVideoName ?>" />
+        <track src="videos/Movie/<?php echo $onlyName ?>.srt" kind="captions" srclang="en" label="English">
     </video>
 </div>
 

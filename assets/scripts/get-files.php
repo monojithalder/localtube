@@ -7,7 +7,7 @@ function endsWith($haystack, $needle)
     return $length === 0 ||
         (substr($haystack, -$length) === $needle);
 }
-if ($handle = opendir('../../videos/')) {
+if ($handle = opendir('/media/homeserver/Storage/Movie/')) {
     $i = 0;
     while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
